@@ -57,3 +57,13 @@ div{
     border-bottom: groove 1px black;
     margin-bottom: 10px;
 }
+input{
+    border: 1px solid black;
+}
+#messageBox{
+    width: 99%;
+    Height: 200px;
+    Font-size: 20px;
+    padding: 20px 10px;
+    border: 1px solid black;
+}
