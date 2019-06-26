@@ -7,12 +7,22 @@ header{
     position:fixed;
     top: 0;
     left:0;
-    height: 110px;    
+    height: 110px;
+    z-index: 2;    
+}
+footer{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color: lightgrey;
 }
 body{
     background-color:rgb(75, 111, 145);
     font-size:24px;
     font-family: 'Courier New', Courier, monospace;
+    height: 1000px;
 }
 button{
     background-color: whitesmoke;
@@ -53,7 +63,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-div{
+.contentHead{
     border-bottom: groove 1px black;
     margin-bottom: 10px;
 }
@@ -64,6 +74,39 @@ input{
     width: 99%;
     Height: 200px;
     Font-size: 20px;
-    padding: 20px 10px;
     border: 1px solid black;
 }
+.project{
+    position: relative;
+    border: 20px solid black;
+    z-index: 1;
+    margin: 10% 11%;
+}
+/* .project1{
+    left:5%;
+    top:20px;
+    
+}
+.project2{
+    right:5%;
+    top:20px;
+    
+}
+.project3{
+    left:5%;
+    top:40px;
+    
+}
+.project4{
+   right:10%;
+   top:40px;
+    
+}
+.project5{
+    left:10%;
+    bottom:30px;
+}
+.project6{
+    right: 10%;
+    bottom:30px;
+} */
