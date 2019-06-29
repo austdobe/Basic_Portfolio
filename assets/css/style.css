@@ -106,12 +106,7 @@ input{
     top:20px;
     font-size:18px;
     background-color:aqua; 
-    z-index: inherit 2;
+    z-index: 2;
     width:91%;
     height:50px;
-    text-align: center;
-   
-}
-.projectcontent{
-    margin:0 auto;
-}
+   }
