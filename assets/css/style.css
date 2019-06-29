@@ -17,12 +17,12 @@ footer{
     left:0;
     width:100%;
     background-color: lightgrey;
+    z-index:3;
 }
 body{
-    background-color:rgb(75, 111, 145);
+    background:Linear-gradient(rgb(75, 111, 145),lightgrey);
     font-size:24px;
     font-family: 'Courier New', Courier, monospace;
-    height: 1000px;
 }
 button{
     background-color: whitesmoke;
@@ -44,7 +44,6 @@ img{
     margin-right: 30px;
     margin-bottom:20px;
     border:1px lightblue;
-    border-radius:75px;
 }
 h1{
     margin-left:120px;
@@ -68,14 +67,20 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+h3{
+    position: absolute;
+    
+}
 .projectHead{
     border-bottom: groove 1px black;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 .aboutHead{
     border-bottom: groove 1px black;
     margin-bottom: 10px;
+    font-weight: bolder
     
 }
 input{
@@ -88,39 +93,25 @@ input{
     border: 1px solid black;
 }
 .project{
-    position: relative;
-    z-index: 1;
-    margin: 10% 11%;
+    position:relative;
+    margin:0 auto;
+    display:inline-block;
+        
 }
-
-.project1{
-   position:absolute;
-   left:29%;
-   top:30%;
-   z-index:2;
-
-}
-.project2{
+.Text{
     position: absolute;
-    left: 65%;
-    bottom:30px;
-    
+    margin:0;
+    left:0;
+    right:0;
+    top:20px;
+    font-size:18px;
+    background-color:aqua; 
+    z-index: inherit 2;
+    width:91%;
+    height:50px;
+    text-align: center;
+   
 }
-.project3{
-    left:5%;
-    top:40px;
-    
+.projectcontent{
+    margin:0 auto;
 }
-.project4{
-   right:10%;
-   top:40px;
-    
-}
-.project5{
-    left:10%;
-    bottom:30px;
-}
-.project6{
-    right: 10%;
-    bottom:30px;
-} 
