@@ -10,6 +10,14 @@ header{
     height: 110px;
     z-index: 3;    
 }
+.portHead{
+    float:left;
+    width: 50%;
+}
+nav{
+    float:right;
+    width:50%;
+}
 footer{
     text-align: center;
     position:fixed;
@@ -32,7 +40,9 @@ button{
     border:ivory;
     margin-top:5px;
     text-align:center;
-    font-size:20px;        
+    font-size:20px; 
+    float:right;
+          
 }
 button:hover{
     background-color:lightblue;
@@ -110,3 +120,19 @@ input{
     width:91%;
     height:50px;
    }
+
+@media only screen and (max-width: 900px){
+    .content{
+        width:100%
+        
+    }
+    h1{
+        margin-left:0;
+    }
+    button{
+        height:fit-content;
+        width:fit-content;
+    }
+ 
+    
+}
